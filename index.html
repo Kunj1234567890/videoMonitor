@@ -1,0 +1,38 @@
+<html>
+<head>
+
+	<title>AI Video Surveillance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background = "https://img.freepik.com/premium-photo/cinematic-camera-icon-elegant-white-vector-logo-set-bold-black-background_983420-10327.jpg">
+<center>
+  <h1 class="heading btn btn-danger">Ai Video Surveillance</h1>
+  <br>
+  <br>
+  <button onclick="PauseVideo()" id="surveillance" class="btn btn-info">Pause video</button>
+  <button onclick="ScanVideo()" id="surveillance" class="btn btn-success">Scan video</button>
+  <button onclick="StopVideo()" id="surveillance" class="btn btn-danger">Stop video</button>
+  <br>
+  <br>
+  <h3 class="btn btn-warning" id="numofobjects">Number of objects currently is 0</h3>
+  <br>
+  <br>
+  <h3 class="btn btn-danger" id="statusupdate">Status</h3>
+</center>
+<div class="copy_right_footer">Sponsored by Cat Co. Pte Ltd </div>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
